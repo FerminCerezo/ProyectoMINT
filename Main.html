@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html style="height: 900px;background-color:#009999;">
+<title>Main</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #009999;
+  padding: 20px;
+}
+
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #009999;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body style="background-color:#009999;" class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="logo.png" style="width:100%">
+   <a href="file:///C:/Users/Ususario/Documents/Documentos/Proyectos/Tecnun/2021-2022/M%C3%A1ster/2do%20bimestre/Proyecto%20paraguas/Pagina%20Web/Main.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>Main</p>
+  </a>
+  <a href="file:///C:/Users/Ususario/Documents/Documentos/Proyectos/Tecnun/2021-2022/M%C3%A1ster/2do%20bimestre/Proyecto%20paraguas/Pagina%20Web/profile.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>Profile</p>
+  </a>
+  <a href="file:///C:/Users/Ususario/Documents/Documentos/Proyectos/Tecnun/2021-2022/M%C3%A1ster/2do%20bimestre/Proyecto%20paraguas/Pagina%20Web/sales.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-money w3-xxlarge"></i>
+    <p>Promotions</p>
+  </a>
+  <a href="file:///C:/Users/Ususario/Documents/Documentos/Proyectos/Tecnun/2021-2022/M%C3%A1ster/2do%20bimestre/Proyecto%20paraguas/Pagina%20Web/Aboutus.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-lightbulb-o w3-xxlarge"></i>
+    <p>About us</p>
+  </a>
+  <a href="file:///C:/Users/Ususario/Documents/Documentos/Proyectos/Tecnun/2021-2022/M%C3%A1ster/2do%20bimestre/Proyecto%20paraguas/Pagina%20Web/Login.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+	<i class="fa fa-angle-double-left w3-xxlarge"></i>
+	<p>Sign Out</p>
+  </a>
+  <a href="" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-car w3-xxlarge"></i>
+    <p>HawkPay</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:20% !important">Main</a>
+    <a href="#" class="w3-bar-item w3-button" style="width:20% !important">Profile</a>
+    <a href="#" class="w3-bar-item w3-button" style="width:20% !important">Promotions</a>
+	<a href="#" class="w3-bar-item w3-button" style="width:20% !important">Aboutus</a>
+    <a href="#" class="w3-bar-item w3-button" style="width:20% !important">Signout</a>
+    <a href="#" class="w3-bar-item w3-button" style="width:20% !important"></a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<body class="w3-black">
+<div class="w3-padding-large" id="main" align="center">
+
+<div class="contenedor-imagenes" >  
+
+    <div class="w3-col m6" class="contenedor-imagenes">
+      <div>
+        <div><img src="grafica.png" style="width:140%" ></div>
+      </div>
+
+</div>
+<p><i class="fa fa-graph w3-margin-left"></i><h5>Anual expend</h5>
+<p><h5><b>731 €</b></h5>
+<p><i class="fa fa-graph w3-margin-left"></i><h5>Month expend</h5>
+<p><h5><b>147 €</b></h5>
+<p><i class="fa fa-graph w3-margin-left"></i><h5>Month Expend Forecast</h5>
+<p><h5><b>201 €</b></h5>
+</div>
+</body>
+
+<div><h2 align="left">Falco Family</h2><h2 align="left">Bank Account: 4599 XXXX XXX XXXX 20</h2></div>
+
+<table class="greyGridTable" text-align width="100%" style="text-align:center">
+<thead>
+<tr>
+<th>Amount</th>
+<th>Plate</th>
+<th>User</th>
+<th>Date</th>
+<th>Type of service</th>
+<th>Place</th>
+</tr>
+</thead>
+<tfoot>
+
+<tbody>
+<tr>
+<td style="width: 25%;"><form action='' method='GET'><input type="submit" value='53,78 €' style="background-color: #; color: #fff; display: inline-block; padding: 2px 8px; font-weight: bold; border-radius: 5px;">
+</form></td>
+<td style="width: 25%;">6895 LJU</td>
+<td style="width: 5%;">Ernesto</td>
+<td style="width: 25%;">24/11/2021</td>
+<td style="width: 25%;">Petrol Station</td>
+<td style="width: 25%;">Madrid</td>
+
+</tr>
+<tr>
+<td style="width: 25%;"><form action='' method='GET'><input type="submit" value='21,55 €' style="background-color: #ffd11a; color: #fff; display: inline-block; padding: 2px 8px; font-weight: bold; border-radius: 5px;">
+</form></td>
+<td style="width: 25%;">4589 DFK</td>
+<td style="width: 5%;">Maria</td>
+<td style="width: 25%;">18/11/2021</td>
+<td style="width: 25%;">Drive-thru</td>
+<td style="width: 25%;">Madrid</td>
+</tr>
+<tr>
+<td style="width: 25%;"><form action='' method='GET'><input type="submit" value='4 €' style="background-color: #ff000080; color: #fff; display: inline-block; padding: 2px 8px; font-weight: bold; border-radius: 5px;">
+</form></td>
+<td style="width: 25%;">4589 DFK</td>
+<td style="width: 5%;">Julian</td>
+<td style="width: 25%;">15/11/2021</td>
+<td style="width: 25%;">Parking</td>
+<td style="width: 25%;">Madrid</td>
+</tr>
+<tr>
+<td style="width: 25%;"><form action='' method='GET'><input type="submit" value='56,89 €' style="background-color: #; color: #fff; display: inline-block; padding: 2px 8px; font-weight: bold; border-radius: 5px;">
+</form></td>
+<td style="width: 25%;">6895 LJU</td>
+<td style="width: 5%;">Carla</td>
+<td style="width: 25%;">14/11/2021</td>
+<td style="width: 25%;">Petrol Station</td>
+<td style="width: 25%;">Navarra</td>
+</tr>
+<tr>
+<td style="width: 25%;"><form action='' method='GET'><input type="submit" value='16,47 €' style="background-color: #ffd11a; color: #fff; display: inline-block; padding: 2px 8px; font-weight: bold; border-radius: 5px;">
+</form></td>
+<td style="width: 25%;">6895 LJU</td>
+<td style="width: 5%;">Ernesto</td>
+<td style="width: 25%;">11/11/2021</td>
+<td style="width: 25%;">Drive-thru</td>
+<td style="width: 25%;">Navarra</td>
+</tr>
+<tr>
+<td style="width: 25%;"><form action='' method='GET'><input type="submit" value='6,07 €' style="background-color: #ff000080; color: #fff; display: inline-block; padding: 2px 8px; font-weight: bold; border-radius: 5px;">
+</form></td>
+<td style="width: 25%;">4589 DFK</td>
+<td style="width: 5%;">Maria</td>
+<td style="width: 25%;">09/11/2021</td>
+<td style="width: 25%;">Parking</td>
+<td style="width: 25%;">Madrid</td>
+</tr>
+<tr>
+<td style="width: 25%;"><form action='' method='GET'><input type="submit" value='15,45 €' style="background-color: #ffd11a; color: #fff; display: inline-block; padding: 2px 8px; font-weight: bold; border-radius: 5px;">
+</form></td>
+<td style="width: 25%;">6895 LJU</td>
+<td style="width: 5%;">Ernesto</td>
+<td style="width: 25%;">07/11/2021</td>
+<td style="width: 25%;">Drive-thru</td>
+<td style="width: 25%;">Madrid</td>
+</tr>
+<tr>
+<td style="width: 25%;"><form action='' method='GET'><input type="submit" value='4 €' style="background-color: #ff000080; color: #fff; display: inline-block; padding: 2px 8px; font-weight: bold; border-radius: 5px;">
+</form></td>
+<td style="width: 25%;">4589 DFK</td>
+<td style="width: 5%;">Julian</td>
+<td style="width: 25%;">15/11/2021</td>
+<td style="width: 25%;">Parking</td>
+<td style="width: 25%;">Madrid</td>
+</tr>
+<tr>
+<td style="width: 25%;"><form action='' method='GET'><input type="submit" value='56,89 €' style="background-color: #; color: #fff; display: inline-block; padding: 2px 8px; font-weight: bold; border-radius: 5px;">
+</form></td>
+<td style="width: 25%;">6895 LJU</td>
+<td style="width: 5%;">Carla</td>
+<td style="width: 25%;">14/11/2021</td>
+<td style="width: 25%;">Petrol Station</td>
+<td style="width: 25%;">Navarra</td>
+</tr>
+<tr>
+<td style="width: 25%;"><form action='' method='GET'><input type="submit" value='16,47 €' style="background-color: #ffd11a; color: #fff; display: inline-block; padding: 2px 8px; font-weight: bold; border-radius: 5px;">
+</form></td>
+<td style="width: 25%;">6895 LJU</td>
+<td style="width: 5%;">Ernesto</td>
+<td style="width: 25%;">11/11/2021</td>
+<td style="width: 25%;">Drive-thru</td>
+<td style="width: 25%;">Navarra</td>
+</tr>
+<tr>
+<td style="width: 25%;"><form action='' method='GET'><input type="submit" value='6,07 €' style="background-color: #ff000080; color: #fff; display: inline-block; padding: 2px 8px; font-weight: bold; border-radius: 5px;">
+</form></td>
+<td style="width: 25%;">4589 DFK</td>
+<td style="width: 5%;">Maria</td>
+<td style="width: 25%;">09/11/2021</td>
+<td style="width: 25%;">Parking</td>
+<td style="width: 25%;">Madrid</td>
+</tr>
+<tr>
+<td style="width: 25%;"><form action='' method='GET'><input type="submit" value='15,45 €' style="background-color: #ffd11a; color: #fff; display: inline-block; padding: 2px 8px; font-weight: bold; border-radius: 5px;">
+</form></td>
+<td style="width: 25%;">6895 LJU</td>
+<td style="width: 5%;">Ernesto</td>
+<td style="width: 25%;">07/11/2021</td>
+<td style="width: 25%;">Drive-thru</td>
+<td style="width: 25%;">Madrid</td>
+</tr>
+</tbody>
+</table>
+
+
+</form>
+</html>
