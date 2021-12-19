@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html style="height: 900px;background-color:#009999;">
+<title>About us</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF5;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.contenedor-imagenes {
+  display: flex;
+}
+
+.contenedor-imagenes img:first-child {
+  margin-right: 10px;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #009999;
+  padding: 20px;
+}
+
+
+
+
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #009999;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body style="background-color:#009999;" class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="logo.png" style="width:100%">
+   <a href="file:///C:/Users/Ususario/Documents/Documentos/Proyectos/Tecnun/2021-2022/M%C3%A1ster/2do%20bimestre/Proyecto%20paraguas/Pagina%20Web/Main.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>Main</p>
+  </a>
+  <a href="file:///C:/Users/Ususario/Documents/Documentos/Proyectos/Tecnun/2021-2022/M%C3%A1ster/2do%20bimestre/Proyecto%20paraguas/Pagina%20Web/profile.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>Profile</p>
+  </a>
+  <a href="file:///C:/Users/Ususario/Documents/Documentos/Proyectos/Tecnun/2021-2022/M%C3%A1ster/2do%20bimestre/Proyecto%20paraguas/Pagina%20Web/sales.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-money w3-xxlarge"></i>
+    <p>Promotions</p>
+  </a>
+  <a href="file:///C:/Users/Ususario/Documents/Documentos/Proyectos/Tecnun/2021-2022/M%C3%A1ster/2do%20bimestre/Proyecto%20paraguas/Pagina%20Web/Aboutus.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-lightbulb-o w3-xxlarge"></i>
+    <p>About us</p>
+  </a>
+  <a href="file:///C:/Users/Ususario/Documents/Documentos/Proyectos/Tecnun/2021-2022/M%C3%A1ster/2do%20bimestre/Proyecto%20paraguas/Pagina%20Web/Login.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+	<i class="fa fa-angle-double-left w3-xxlarge"></i>
+	<p>Sign Out</p>
+  </a>
+  <a href="file:///C:/Users/Ususario/Documents/Documentos/Proyectos/Tecnun/2021-2022/M%C3%A1ster/2do%20bimestre/Proyecto%20paraguas/Pagina%20Web/pay.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-car w3-xxlarge"></i>
+    <p>HawkPay</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:20% !important">Main</a>
+    <a href="#" class="w3-bar-item w3-button" style="width:20% !important">Profile</a>
+    <a href="#" class="w3-bar-item w3-button" style="width:20% !important">Promotions</a>
+	<a href="#" class="w3-bar-item w3-button" style="width:20% !important">Aboutus</a>
+    <a href="#" class="w3-bar-item w3-button" style="width:20% !important">Signout</a>
+    <a href="#" class="w3-bar-item w3-button" style="width:20% !important"></a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<body class="w3-black">
+<div class="w3-padding-large" id="main" align="center">
+
+<img src="logo.png" style="width:25%" >
+
+
+ <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">About the company</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+	<button class="w3-button w3-light-grey w3-padding-large w3-section" id="request">Learn more about</button>
+    <div id="bio"></div>
+	
+<script>	
+	(function() {
+  
+  'use strict';
+    
+  // find the desired selectors
+  var btn = document.getElementById('request');
+  var bio = document.getElementById('bio');
+  
+  // set up a request
+  var request = new XMLHttpRequest();
+  
+  // keep track of the request
+  request.onreadystatechange = function() {
+    // check if the response data send back to us 
+    if(request.readyState === 4) {
+      // add a border
+      bio.style.border = '1px solid #e8e8e8';
+      // uncomment the line below to see the request
+      // console.log(request);
+      // check if the request is successful
+      if(request.status === 200) {
+        // update the HTML of the element
+        bio.innerHTML = request.responseText;        
+      } else {
+        // otherwise display an error message
+        bio.innerHTML = 'An error occurred during your request: ' +  request.status + ' ' + request.statusText;
+      }
+    }
+  }
+
+  // specify the type of request
+  request.open('Get', 'file:///C:/Users/Ususario/Documents/Documentos/Proyectos/Tecnun/2021-2022/M%C3%A1ster/2do%20bimestre/Proyecto%20paraguas/Pagina%20Web/Bio.html');
+
+  // register an event
+  btn.addEventListener('click', function() {
+    // hide the button
+    this.style.display = 'none';
+    // send the request
+    request.send();
+  });
+  
+})();
+</script>
+
+
+
+
+    <!-- <p style="color: #ffffff"><b>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip -->
+      <!-- ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur -->
+      <!-- adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. -->
+    <!-- </b></p> -->
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">+500</span><br>
+        Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">+255</span><br>
+        Traced containers
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">-20%</span><br>
+        Total cost savings
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">150+</span><br>
+        Meetings
+      </div>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Information
+    </button>
+    
+ <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section" style="color: #ffffff">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Madrid, ESP</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +34 90187844546</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: hawkpay@mail.com</p>
+    </div><br>
+    <p style="color: #ffffff">Let's get in touch. Send us a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+
+
+
+
+
+<!-- <img src="container.png" style="width:49%" > -->
+
+
+
+
+
+
+    </form>
+	</html>
